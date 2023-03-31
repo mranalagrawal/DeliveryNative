@@ -181,6 +181,7 @@ const Home = ({navigation}) => {
 
           <FlatList
             data={myProducts}
+            style={{marginBottom:70}}
             keyExtractor={(item)=>`key-${item.id}`}
             renderItem={({item}) => {
               return (
